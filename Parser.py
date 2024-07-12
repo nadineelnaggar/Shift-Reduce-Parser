@@ -25,5 +25,8 @@ print(sent)
 
 parser = parse.ShiftReduceParser(grammar, trace=2)
 # print(parser)
+
 for p in parser.parse(sent):
-        print(p)
+    print(p)
+
+
